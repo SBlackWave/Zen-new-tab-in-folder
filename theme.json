@@ -1,0 +1,14 @@
+{
+  "id": "new-tab-in-folder",
+  "name": "New Tab In Folder",
+  "description": "Tabs opened from the URL bar (Ctrl+T or the new tab button) land in the folder or subfolder of the active tab.",
+  "version": "0.1.0",
+  "supportsUnload": false,
+  "scripts": {
+    "new-tab-in-folder.uc.js": {
+      "include": ["chrome://browser/content/browser.xhtml"]
+    }
+  },
+  "tags": ["tabs", "folders"],
+  "fork": ["zen"]
+}
